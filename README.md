@@ -12,7 +12,7 @@ The detection engine (a multi-scale NSDF pitch tracker with a note state machine
 
 | Device | Type | Goes on | Does |
 |---|---|---|---|
-| **Nóta source** | Max Audio Effect | the audio track with your bass / voice | listens, runs the engine, passes the audio through, sends the MIDI by name |
+| **Nóta source** | Max Audio Effect | the audio track, tuned to bass / voice | listens, runs the engine, passes the audio through, sends the MIDI by name |
 | **Nóta destination** | Max MIDI Effect | the instrument track, **before the instrument** (any instrument, including Live's own) | receives that MIDI, **shows the note it is receiving**, optionally **accompanies it with chords**, and plays it; the track's own MIDI passes through |
 
 Both devices have a **Channel Link** number (default 1). Live can't send MIDI from an audio device to another track, so
