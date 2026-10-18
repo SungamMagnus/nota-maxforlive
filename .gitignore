@@ -1,0 +1,11 @@
+build/
+build-*/
+externals/
+dist/
+max-sdk/
+package/nota/externals/
+.DS_Store
+*.wav
+*.mid
+__pycache__/
+tests/*.maxpat
