@@ -1,5 +1,7 @@
 # Nóta for Max for Live
 
+DSP built with Claude, Max elements and UI build by hand. 
+
 Real-time **monophonic audio to MIDI** for bass guitar and voice, as two Max for Live devices for Ableton Live. They work like a
 MIDI effect: no sidechain chooser and no "MIDI From" routing, and the notes can be played as they are, harmonised with chords,
 or decorated with a random flourish, in a scale you choose or Live's own.
